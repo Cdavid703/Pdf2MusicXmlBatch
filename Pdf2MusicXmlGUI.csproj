@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<!-- Ejecutable de escritorio -->
+		<OutputType>WinExe</OutputType>
+
+		<!-- Framework de destino -->
+		<TargetFramework>net8.0-windows</TargetFramework>
+
+		<!-- Activar Windows Forms -->
+		<UseWindowsForms>true</UseWindowsForms>
+
+		<!-- Desactivar advertencias de nullabilidad -->
+		<Nullable>disable</Nullable>
+
+		<!-- Mantener los using automáticos de .NET -->
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Versión del lenguaje más reciente -->
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+</Project>
